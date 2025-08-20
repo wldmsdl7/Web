@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /*
+        선택자 {
+            속성: 값;
+        }
+        */
+        #brand { /* # 없으면 태그 이름 # 붙이면 id*/
+            color: blue;
+        }
+        .lead {
+            color: green;
+        }
+        .alert {
+            color: red;
+        }
+        strong {
+            color: pink;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--id와 class가 충돌하면 id가 이김-->
+    <h1 id="brand">구별을 위한 선택자 id, 1개만 존재하는 걸 '권장'</h1>
+    <p id="brand">그런갑다... 만들 때 신경써줘야 함 </p>
+    <h5 class="lead">재사용을 위한 클래스 예시</h5>
+    <p class="alert">경고 뿅뿅</p>
+</body>
+</html>
